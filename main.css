@@ -5132,13 +5132,13 @@ header {
 
 .c-form-container input:focus {
   background-color: #FCE762;
-  color: #FFFDED;
+  color: #000;
   font-size: 30px;
 }
 
 .c-form-container textarea:focus {
   background-color: #FCE762;
-  color: #FFFDED;
+  color: #000;
   font-size: 25px;
 }
 
