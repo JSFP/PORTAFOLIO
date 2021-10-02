@@ -1,0 +1,98 @@
+ .proyectos-title {
+     display: flex;
+     font-size: 50px;
+     justify-content: center;
+     text-align: center;
+     border-bottom: 4px solid black;
+     border-top: 4px solid black;
+     background-color: #CDE6F5;
+     color: #000;
+     text-shadow: -2px 1px 0px #00ff2a;
+ }
+ 
+ #proyect-section {
+     width: 100%;
+     background-color: #F3F9D2;
+     .p-title {
+         padding: 15px;
+         margin-top: 25px;
+         font-size: 40px;
+         display: flex;
+         justify-content: center;
+     }
+     .img-container {
+         display: flex;
+         justify-content: center;
+     }
+     .p-img {
+         width: 70%;
+         margin: 25px 25px;
+         border-radius: 5px;
+     }
+     .p-info-container {
+         margin-top: 25px;
+         display: grid;
+         grid-template-columns: 90%;
+         grid-template-rows: 80% 1fr;
+         grid-template-areas: "p-info" "p-link";
+         .p-info {
+             grid-area: p-info;
+             font-size: 30px;
+         }
+         .p-link {
+             grid-area: p-link;
+             margin: 12px 12px 12px 12px;
+             font-size: 35px;
+             text-decoration: none;
+             color: #000;
+             transition: all 0.5s;
+             cursor: pointer;
+         }
+         .p-link span {
+             cursor: pointer;
+             display: inline-block;
+             position: relative;
+             transition: 0.5s;
+         }
+         .p-link span::after {
+             content: '\00bb';
+             position: absolute;
+             opacity: 0;
+             top: 0;
+             right: -20px;
+             transition: 0.5s;
+         }
+         .p-link:hover span {
+             padding-right: 25px;
+         }
+         .p-link:hover span::after {
+             opacity: 10;
+             right: 0;
+         }
+         .info-container {
+             display: flex;
+             padding: 15px 15px 15px 15px;
+             height: 200px;
+             text-align: justify;
+             align-items: center;
+         }
+     }
+ }
+ 
+ //build more section styles
+ .a-container {
+     display: flex;
+     justify-content: center;
+     margin-top: 60px;
+     margin-bottom: 35px;
+     text-align: center;
+     .title-b {
+         font-size: 50px;
+         border: 5px inset rgba(0, 0, 0, 0.99);
+         margin-bottom: 10px;
+     }
+     .info-b {
+         font-size: 22px;
+         border-bottom: 5px inset rgba(0, 0, 0, 0.99);
+     }
+ }

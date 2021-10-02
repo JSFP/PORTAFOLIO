@@ -1,0 +1,20 @@
+@import "./node_modules/bootstrap/scss/bootstrap-grid.scss";
+@import url('https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@300&display=swap');
+@import "./header";
+@import "./hero";
+@import "./proyects";
+@import "./contact";
+@import "./about";
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    font-family: 'Gemunu Libre', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    overflow-x: hidden !important;
+}

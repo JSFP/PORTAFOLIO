@@ -1,0 +1,97 @@
+body {
+    overflow-x: hidden !important;
+}
+
+.about-info-container {
+    margin-top: 12%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 50px 1fr;
+}
+
+.skill {
+    text-shadow: 4px 1px 0px rgba(166, 185, 6, 1);
+}
+
+.ab-title {
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 5%;
+    padding: 10px;
+}
+
+.ab-subtitle {
+    margin: 12px;
+    text-align: center;
+    padding: 5px;
+}
+
+.ab-text {
+    font-size: 22px;
+    text-align: justify;
+    margin: 16px;
+    padding: 10px;
+}
+
+.skills-box {
+    width: 65%;
+    margin-top: 12%;
+    padding: 12%;
+    background-color: #F3F9D2;
+    border-radius: 5px;
+    opacity: 1.5;
+    img {
+        width: 100%;
+    }
+    h1 {
+        font-size: 50px;
+        margin-bottom: 12%;
+    }
+    ul {
+        margin-bottom: 12%;
+    }
+    .skill-item {
+        font-size: 16px;
+    }
+}
+
+.hv {
+    text-decoration: none;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 20px;
+    text-align: center;
+    color: black;
+}
+
+.hv:hover {
+    border-bottom: solid 2px black;
+}
+
+.skills {
+    text-align: right;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+}
+
+.html {
+    width: 100%;
+    background-color: #04AA6D;
+}
+
+.scss {
+    width: 90%;
+    background-color: #2196F3;
+}
+
+.js {
+    width: 65%;
+    background-color: #fffb0096;
+}
+
+.boostrap {
+    width: 90%;
+    background-color: #9900ff;
+}

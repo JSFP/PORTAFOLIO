@@ -1,0 +1,27 @@
+#hero-section {
+    .hero-item {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-areas: "." "title" "item";
+        height: 500px;
+    }
+    .hero-content {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        font-size: 50px;
+        grid-area: title;
+    }
+    .hero-info {
+        grid-area: item;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        font-size: 40px;
+    }
+    .skill {
+        font-weight: bold;
+        text-shadow: -1px 4px 0px rgba(67, 236, 15, 0.82);
+    }
+}
